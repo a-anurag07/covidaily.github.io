@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* css variables */
+:root{
+    --navbar-height: 59px
+}
+.backimg{
+
+    width: 100%;
+    height: 100%;
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+/* navigation bar logo  */
+#logo{
+    margin: 10px 27px;
+}
+#logo img{
+    height: 56px;
+    margin: 10px 27px;
+}
+/* navigation bar list  */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px ;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5rem;
+
+}
+#home p{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px ;
+}
+
+/* tips */
+#tips{
+    margin: 5px;
+    /* background-color: rgb(205, 246, 253); */
+}
+#tips h1{
+    text-align:center ;
+    padding: 10px;
+    font-size: 3rem;
+}
+#tips .box1{
+    border: 3px solid brown;
+    height: 250px;
+    position: relative;
+}
+#tips .box1 img{ 
+    height: 200px;
+}
+#tips .box1 .img1{
+    position:absolute;
+    right: 0;
+}
+#tips .box1 .text1{
+    position: absolute;
+    left: 0;
+}
+#tips .box1 .text1 h2{
+    text-align:center ;
+    padding: 10px;
+    font-size: 2rem;
+ margin-left: 250px;
+}
+#tips .box1 .text1 p{
+    padding: 10px;
+    font-size: 1.5rem;
+ 
+}
+
+
+#tips .box2{
+  
+    border: 3px solid brown;
+    height: 300px;
+    position: relative;
+}
+#tips .box2 img{ 
+    height: 250px;
+}
+#tips .box2 .img2{
+    position:absolute;
+    right: 0;
+}
+#tips .box2 .text2{
+    position: absolute;
+    left: 0;
+}
+#tips .box2 .text2 h2{
+    text-align:center ;
+    padding: 10px;
+    font-size: 2rem;
+ margin-left: 450px;
+}
+#tips .box2 .text2 p{
+    padding: 10px;
+    font-size: 1.5rem;
+ 
+} 
+
+
+
+#tips .box3{
+  
+    border: 3px solid brown;
+    height: 250px;
+    position: relative;
+}
+#tips .box3 img{ 
+    height: 200px;
+}
+#tips .box3 .img3{
+    position:absolute;
+    right: 0;
+}
+#tips .box3 .text3{
+    position: absolute;
+    left: 0;
+}
+#tips .box3 .text3 h2{
+    text-align:center ;
+    padding: 10px;
+    font-size: 2rem;
+ margin-left: 350px;
+}
+#tips .box3 .text3 p{
+    padding: 10px;
+    font-size: 1.5rem;
+ 
+} 
+
+
+
+#tips .box4{
+  
+    border: 3px solid brown;
+    height: 250px;
+    position: relative;
+}
+#tips .box4 img{ 
+    height: 200px;
+}
+#tips .box4 .img4{
+    position:absolute;
+    right: 0;
+}
+#tips .box4 .text4{
+    position: absolute;
+    left: 0;
+}
+#tips .box4 .text4 h2{
+    text-align:center ;
+    padding: 10px;
+    font-size: 2rem;
+ margin-left: 450px;
+}
+#tips .box4 .text4 p{
+    padding: 10px;
+    font-size: 1.5rem;
+ 
+}  
+
+/* symptoms */
+
+#symptoms{
+    margin: 5px;
+    /* background-color: rgb(225, 199, 241); */
+}
+#symptoms h3{
+    text-align:center ;
+    padding: 10px;
+    font-size: 3rem;
+}
+#symptoms p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#symptoms table{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+     
+}
+.tablee{
+    border-collapse: collapse;
+   padding: 5px;
+    border-color: brown;
+    border-spacing: 2px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 3px;
+    width: 45em;
+
+   
+}
+.tablee thead tr{
+
+    border-bottom: 2px solid brown;
+    
+}
+.tablee tbody tr{
+
+    border-bottom: 2px solid brown;
+    
+}
+
+/* FAQs */
+#faqs{
+    margin: 25px;
+    padding: 10px;
+    /* background-color: rgb(228, 212, 192); */
+}
+#faqs h4{
+    text-align:center ;
+    padding: 10px;
+    font-size: 3rem;
+}
+#faqs p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#faqs li{
+    padding: 10px;
+    margin-left: 45px;
+    font-size: 1.8rem;
+}
+/* external links */
+#externallinks{
+    margin: 25px;
+    padding: 10px;
+    /* background-color: rgb(243, 231, 231); */
+}
+#externallinks h5{
+    text-align:center ;
+    padding: 10px;
+    font-size: 3rem;
+}
+#externallinks p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#externallinks a{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+#credits{
+    margin: 5px;
+    background-color: rgb(204, 131, 153);
+}
+#credits h6{
+    text-align:center ;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+
+#credits p{
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align:center ;
+}
